@@ -1,0 +1,78 @@
+name: travel_wishlist
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.25.4
+  firebase_auth: ^4.17.4
+  cloud_firestore: ^4.15.4
+  firebase_core_web: ^2.11.4
+  firebase_auth_web: ^5.9.4
+  provider: ^6.1.1
+  flutter_spinkit: ^5.2.0
+  flutter_bloc: ^9.1.0
+  equatable: ^2.0.7
+  image_picker: ^1.1.2
+  firebase_storage: ^11.6.0
+  google_sign_in: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/google_logo.png
+    - assets/login_pic.jpg
+    - assets/image1.png
+    - assets/pic3.png
+    - assets/pic4.png
+    - assets/Cinzel-Regular.ttf
+    - assets/Cinzel-Bold.ttf
+    - assets/Raleway-Regular.ttf
+    - assets/Raleway-Bold.ttf
+    - assets/Poppins-Regular.ttf
+    - assets/tabanog.png
+    - assets/image.png
+    - assets/imagesand.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Cinzel
+      fonts:
+        - asset: assets/Cinzel-Regular.ttf
+        - asset: assets/Cinzel-Bold.ttf
+    - family: Raleway
+      fonts:
+        - asset: assets/Raleway-Regular.ttf
+        - asset: assets/Raleway-Bold.ttf
+    - family: Poppins
+      fonts:
+        - asset: assets/Poppins-Regular.ttf
+
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package

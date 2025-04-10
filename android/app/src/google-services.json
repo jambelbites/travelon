@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "157216180253",
+    "project_id": "travelwishlist-1e39d",
+    "storage_bucket": "travelwishlist-1e39d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157216180253:android:4cd4da9c3422a5bc589ef4",
+        "android_client_info": {
+          "package_name": "com.example.travel_wishlist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157216180253-3cf96f584v1dlhhdo61igsa5r8ssh75e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.travel_wishlist",
+            "certificate_hash": "3134c5c5c880990511f5b2395c8603dea9bf27d7"
+          }
+        },
+        {
+          "client_id": "157216180253-h3d8kb0f2a7d3enoknu5id46745k906f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKSouLbhmWWUljE8Fl6h2IulrhJRm0_cE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157216180253-h3d8kb0f2a7d3enoknu5id46745k906f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "157216180253-l9clh3hjfmttjshmvq1bgklhm62d2c5d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.travelWishlist"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
