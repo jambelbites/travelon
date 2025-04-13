@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../core/services/firebase_service.dart';
-import '../../data/countries.dart';
+import '../../models/data/countries.dart';
 import '../../models/country.dart';
 
 class AddPlaceScreen extends StatefulWidget {

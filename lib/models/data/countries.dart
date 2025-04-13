@@ -1,4 +1,4 @@
-import '../models/country.dart';
+import '../country.dart';
 
 final List<Country> countries = [
   // Asia
